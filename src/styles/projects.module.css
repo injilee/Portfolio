@@ -1,0 +1,14 @@
+.projects_content {
+   padding-top: 130px;
+   /* background-color: #fcc6d3; */
+   text-align: center;
+   margin: 0 auto;
+}
+
+.projects_main {
+   padding-top: 20px;
+}
+
+.projects_tit {
+   font-size: 24px;
+}

@@ -3,9 +3,26 @@
    flex-direction: row;
 }
 
-.light:hover {
-   width: 30px;
-   height: 30px;
+.light,
+.dark {
+   width: 36px;
+   height: 36px;
+   stroke: var(--black-color);
+}
+
+.light:hover,
+.dark:hover {
+   width: 36px;
+   height: 36px;
    border-radius: 18px;
-   background-color: #eee;
+   background-color: var(--gray-color);
+}
+
+.screen_out {
+   position: absolute;
+   width: 0;
+   height: 0;
+   overflow: hidden;
+   line-height: 0;
+   text-indent: -9999px;
 }

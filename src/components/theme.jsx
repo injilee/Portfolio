@@ -5,14 +5,13 @@ const Theme = () => {
    return (
       <div className={styles.theme}>
          <button className={styles.light}>
-            {/* <span aria-label="screen_out">다크모드로 변경하기</span> */}
+            <span className={styles.screen_out}>다크모드로 변경하기</span>
             <svg
                xmlns="http://www.w3.org/2000/svg"
                width="28"
                height="28"
                viewBox="0 0 24 24"
                fill="none"
-               stroke="#ffffff"
                strokeWidth="2"
                strokeLinecap="round"
                strokeLinejoin="round"
@@ -22,13 +21,13 @@ const Theme = () => {
             </svg>
          </button>
          <button className={styles.dark}>
+            <span className={styles.screen_out}>라이트모드로 변경하기</span>
             <svg
                xmlns="http://www.w3.org/2000/svg"
                width="28"
                height="28"
                viewBox="0 0 24 24"
                fill="none"
-               stroke="#ffffff"
                strokeWidth="2"
                strokeLinecap="round"
                strokeLinejoin="round"
