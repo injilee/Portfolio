@@ -1,0 +1,49 @@
+{
+   "projectsData": [
+      {
+         "id": 1,
+         "title": "Natural Archive",
+         "img": "./image/natural-archive.png",
+         "description": "'Digglet'의 개인 포트폴리오를 위해 제작한 웹 사이트.",
+         "pageUrl": "",
+         "githubUrl": "",
+         "skill": []
+      },
+      {
+         "id": 2,
+         "title": "Pet license maker",
+         "img": "./image/pet-license-maker.png",
+         "description": "React를 기반으로 제작한 반려동물등록증을 만들 수 있는 웹 사이트. Firebase로 백엔드 구축. Cloudinary API를 사용해 이미지 업로드 가능.",
+         "pageUrl": "https://pet-licese-maker.netlify.app/",
+         "githubUrl": "https://github.com/injilee/Pet-license-maker",
+         "skill": ["React", "React Router", "Firebase", "postCSS", "React Hooks"]
+      },
+      {
+         "id": 3,
+         "title": "Mytube",
+         "img": "./image/mytube.png",
+         "description": "Youtube 클론 코딩 웹 사이트. React를 기반으로 제작. Youtube API를 사용해 동영상 목록 정렬 및 검색 가능.",
+         "pageUrl": "https://injilee-mytube.netlify.app/",
+         "githubUrl": "https://github.com/injilee/Mytube",
+         "skill": ["React", "postCSS", "Youtube API", "Postman"]
+      },
+      {
+         "id": 4,
+         "title": "Protect the earth",
+         "img": "./image/protect-the-earth.png",
+         "description": "Vanila JS를 기반으로 제작한 지구를 지키기 위해 버그를 잡는 게임.",
+         "pageUrl": "https://injilee.github.io/Protect-the-earth/",
+         "githubUrl": "https://github.com/injilee/Protect-the-earth",
+         "skill": ["HTML", "CSS", "Javascript"]
+      },
+      {
+         "id": 5,
+         "title": "Mothers Day",
+         "img": "./image/mothers-day.png",
+         "description": "어버이날 기념으로 제작한 기본적인 갤러리 형식의 웹 사이트.",
+         "pageUrl": "https://injilee.github.io/Mothers-Day/",
+         "githubUrl": "https://github.com/injilee/Mothers-Day",
+         "skill": ["HTML", "CSS", "Javascript"]
+      }
+   ]
+}
