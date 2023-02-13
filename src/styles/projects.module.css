@@ -1,14 +1,30 @@
-.projects_content {
-   padding-top: 130px;
-   /* background-color: #fcc6d3; */
-   text-align: center;
-   margin: 0 auto;
-}
-
-.projects_main {
-   padding-top: 20px;
-}
-
-.projects_tit {
+.tit {
    font-size: 24px;
+   margin-bottom: 35px;
+}
+
+.content {
+   padding: 30px 3.125rem 100px;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.box_wrap {
+   width: 80%;
+   padding: 50px 30px 40px;
+   background-color: var(--white-color);
+   border-radius: 14px;
+   box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);
+   margin: 80px auto 0;
+}
+
+.card_container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+   grid-template-rows: minmax(500px, auto);
+   grid-gap: 20px;
 }

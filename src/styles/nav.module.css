@@ -39,9 +39,12 @@
    font-size: 18px;
    font-weight: 600;
    margin-top: 4px;
-   cursor: pointer;
 }
 
-.menu_li:hover {
+.menu_li span:hover {
    color: var(--hover-purple-color);
+}
+
+.menu_li span {
+   cursor: pointer;
 }
