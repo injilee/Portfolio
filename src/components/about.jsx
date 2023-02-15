@@ -20,8 +20,8 @@ const About = () => {
                   <h3 className={styles.contact_name} aria-label="이름">
                      이인지
                   </h3>
+                  <strong className={styles.contact_detail_tit}>Contact</strong>
                   <div className={styles.contact_detail}>
-                     <strong className={styles.contact_detail_tit}>Contact</strong>
                      <span aria-label="전화번호">📞 010-2610-1667</span>
                      <span aria-label="이메일 주소">📧 lij8016@gmail.com</span>
                   </div>

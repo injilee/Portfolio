@@ -31,6 +31,7 @@
 
 .description {
    display: flex;
+   flex-direction: row;
    justify-content: center;
    align-items: center;
    padding-top: 40px;
@@ -45,6 +46,7 @@
 .contact {
    display: flex;
    flex-direction: column;
+   align-items: center;
 }
 
 .contact_job {
@@ -60,13 +62,13 @@
 .contact_detail {
    display: flex;
    flex-direction: column;
-   align-items: center;
-   margin-top: 40px;
+   align-items: flex-start;
 }
 
 .contact_detail_tit {
    color: firebrick;
    font-size: 18px;
+   margin-top: 40px;
    margin-bottom: 5px;
 }
 
@@ -134,4 +136,29 @@
    width: 85%;
    height: 1px;
    background-color: var(--gray-color);
+}
+
+@media screen and (max-width: 767px) {
+   .content {
+      padding: 80px 1.2rem 0;
+   }
+
+   .box_wrap {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 55px;
+      box-shadow: 2px 5px 12px 3px rgb(0 0 0 / 9%);
+   }
+
+   .description {
+      flex-direction: column;
+   }
+
+   .profile_img {
+      margin-right: 0;
+   }
+
+   .contact_job {
+      margin-top: 30px;
+   }
 }

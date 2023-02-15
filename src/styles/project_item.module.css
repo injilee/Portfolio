@@ -67,3 +67,9 @@
 .btn:hover {
    color: gray;
 }
+
+@media screen and (max-width: 767px) {
+   .card:hover {
+      box-shadow: 2px 3px 10px 2px rgb(0 0 0 / 18%);
+   }
+}
