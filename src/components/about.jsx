@@ -1,10 +1,7 @@
 import React from 'react';
 import styles from '../styles/about.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FaGithub } from 'react-icons/fa';
 
-library.add(faGithub);
 const About = () => {
    return (
       <section className={styles.content}>
@@ -27,7 +24,7 @@ const About = () => {
                   </div>
                   <div className={styles.contact_channel}>
                      <a href="https://github.com/injilee" aria-label="깃허브 링크">
-                        <FontAwesomeIcon icon={faGithub} size="lg" />
+                        <FaGithub />
                      </a>
                      <span> | </span>
                      <a href="https://blog.naver.com/lij8016" aria-label="블로그 링크">

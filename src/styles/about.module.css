@@ -1,5 +1,6 @@
 .tit,
 .skills_tit {
+   color: var(--theme-font-color);
    font-size: 24px;
 }
 
@@ -7,7 +8,7 @@
    width: 70%;
    padding-top: 65px;
    padding-bottom: 60px;
-   background-color: var(--white-color);
+   background-color: var(--opacity-background-color);
    border-radius: 14px;
    box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);
    margin: 80px auto 0;
@@ -26,6 +27,7 @@
 
 .produce {
    font-size: 17px;
+   color: var(--theme-font-color);
    margin-top: 5px;
 }
 
@@ -35,6 +37,7 @@
    justify-content: center;
    align-items: center;
    padding-top: 40px;
+   color: var(--theme-font-color);
 }
 
 .profile_img {
@@ -78,7 +81,7 @@
 }
 
 .contact_channel a {
-   color: var(--black-color);
+   color: var(--theme-font-color);
 }
 
 .contact_channel a:hover {

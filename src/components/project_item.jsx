@@ -18,10 +18,10 @@ const ProjectItem = ({ item }) => {
          </p>
          <div className={styles.link_btn}>
             <a href={item.githubUrl} aria-label="프로젝트 깃허브 바로가기">
-               <i className={`fa-solid fa-globe ${styles.btn}`}></i>
+               <i className={`fa-brands fa-github ${styles.btn}`}></i>
             </a>
             <a href={item.pageUrl} aria-label="프로젝트 사이트 바로가기">
-               <i className={`fa-brands fa-github ${styles.btn}`}></i>
+               <i className={`fa-solid fa-globe ${styles.btn}`}></i>
             </a>
          </div>
       </li>

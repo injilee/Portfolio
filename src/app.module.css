@@ -4,7 +4,24 @@
    --gray-color: #dddddd;
    --green-color: #e4f4ec;
    --orange-color: #faebdd;
+   --nav-background-color: var(--white-color);
+   --nav-font-color: var(--black-color);
    --hover-purple-color: #62259e;
+   --opacity-background-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme='dark'] {
+   --theme-font-color: var(--white-color);
+   --theme-background-color: var(--black-color);
+   --nav-font-color: var(--white-color);
+   --nav-background-color: var(--black-color);
+}
+
+[data-theme='light'] {
+   --theme-font-color: var(--black-color);
+   --theme-background-color: var(--white-color);
+   --nav-font-color: var(--black-color);
+   --nav-background-color: var(--white-color);
 }
 
 @font-face {
@@ -22,7 +39,7 @@
 }
 
 body {
-   background-color: var(--white-color);
+   background-color: var(--theme-background-color);
 }
 
 :is(ul, ol, li) {
@@ -52,5 +69,6 @@ a:active {
 }
 
 svg {
+   pointer-events: none;
    vertical-align: top;
 }

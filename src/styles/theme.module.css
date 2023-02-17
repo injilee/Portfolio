@@ -7,7 +7,7 @@
 .dark {
    width: 36px;
    height: 36px;
-   stroke: var(--black-color);
+   stroke: var(--nav-font-color);
 }
 
 .light:hover,

@@ -1,9 +1,11 @@
 .tit {
    font-size: 24px;
+   color: var(--theme-font-color);
    margin-bottom: 35px;
 }
 
 .content {
+   color: var(--theme-font-color);
    padding: 30px 3.125rem 100px;
 }
 
@@ -16,7 +18,7 @@
 .box_wrap {
    width: 80%;
    padding: 50px 30px 40px;
-   background-color: var(--white-color);
+   background-color: var(--opacity-background-color);
    border-radius: 14px;
    box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);
    margin: 80px auto 0;

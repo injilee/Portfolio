@@ -22,6 +22,7 @@
 }
 
 .skills {
+   color: var(--black-color);
    display: flex;
    flex-direction: column;
    align-items: center;
