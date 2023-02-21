@@ -2,12 +2,12 @@ import React from 'react';
 import { NavBar, Header, Logo, MenuList } from '../styles/component/Nav';
 import Theme from './theme';
 
-const Nav = () => {
+const Nav = ({ darkModeHandler, darkMode }) => {
    return (
       <NavBar>
          <Header>
             <Logo>N</Logo>
-            <Theme />
+            <Theme darkModeHandler={darkModeHandler} darkMode={darkMode} />
          </Header>
          <MenuList>
             <li>

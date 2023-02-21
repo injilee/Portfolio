@@ -29,7 +29,7 @@ export const ProjectContent = styled.li`
 `;
 
 export const ProjectSkills = styled.div`
-   color: var(--black-color);
+   color: ${props => props.theme.color.color};
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -39,10 +39,11 @@ export const ProjectSkills = styled.div`
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
-      margin-top: 25px;
+      margin-top: 20px;
 
       li {
-         background-color: var(--green-color);
+         color: var(--black-color);
+         background-color: var(--orange-color);
          border-radius: 20px;
          padding: 7px 13px;
          font-size: 13px;

@@ -34,7 +34,8 @@ export const SkillList = styled.ul`
    margin-bottom: 20px;
 
    li {
-      background-color: var(--green-color);
+      color: var(--black-color);
+      background-color: var(--orange-color);
       border-radius: 20px;
       padding: 9px 15px;
       font-size: 13px;
@@ -61,7 +62,8 @@ export const ToolList = styled.ul`
    margin-bottom: 20px;
 
    li {
-      background-color: var(--orange-color);
+      color: var(--black-color);
+      background-color: var(--skill-gray-color);
       border-radius: 20px;
       padding: 9px 15px;
       font-size: 13px;

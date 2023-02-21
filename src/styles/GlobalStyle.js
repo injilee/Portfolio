@@ -5,8 +5,8 @@ export const GlobalStyles = createGlobalStyle`
   --white-color: #ffffff;
   --black-color: #000000;
   --gray-color: #dddddd;
-  --green-color: #e4f4ec;
-  --orange-color: #faebdd;
+  --orange-color: #fdcd77fc;
+  --skill-gray-color: #f0f0f0;
   --nav-background-color: var(--white-color);
   --nav-font-color: var(--black-color);
   --hover-purple-color: #62259e;
@@ -35,7 +35,8 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 body {
-  background-color: var(--theme-background-color);
+  background-color: ${props => props.theme.color.backgroundColor};
+  color: ${props => props.theme.color.color};
 }
 
 :is(ul, ol, li) {
