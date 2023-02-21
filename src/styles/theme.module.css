@@ -7,6 +7,7 @@
 .dark {
    width: 36px;
    height: 36px;
+   font-size: 20px;
    stroke: var(--nav-font-color);
 }
 

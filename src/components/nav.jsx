@@ -1,25 +1,23 @@
 import React from 'react';
-import styles from '../styles/nav.module.css';
+import { NavBar, Header, Logo, MenuList } from '../styles/component/Nav';
 import Theme from './theme';
 
 const Nav = () => {
    return (
-      <nav className={styles.nav}>
-         <header className={styles.nav_header}>
-            <h1 aria-label="이인지 포트폴리오 로고">
-               <span className={styles.logo}>N</span>
-            </h1>
+      <NavBar>
+         <Header>
+            <Logo>N</Logo>
             <Theme />
-         </header>
-         <ul className={styles.menu}>
-            <li className={styles.menu_li}>
+         </Header>
+         <MenuList>
+            <li>
                <span>ABOUT</span>
             </li>
-            <li className={styles.menu_li}>
+            <li>
                <span>PROJECT</span>
             </li>
-         </ul>
-      </nav>
+         </MenuList>
+      </NavBar>
    );
 };
 

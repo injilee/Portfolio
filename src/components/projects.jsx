@@ -1,20 +1,20 @@
 import React from 'react';
-import styles from '../styles/projects.module.css';
-import ProjectItem from './project_item';
+import { CardContainer, ProjectContent } from '../styles/component/Project';
 import data from '../router/data.json';
+import ProjectItem from './project_item';
 
 const Projects = () => {
    return (
-      <section className={styles.content}>
-         <article className={`${styles.main} ${styles.box_wrap}`}>
-            <h2 className={styles.tit}>Projects</h2>
-            <ul className={styles.card_container}>
+      <ProjectContent>
+         <article>
+            <h2>Projects</h2>
+            <CardContainer>
                {data.projectsData.map(item => (
                   <ProjectItem item={item} key={item.id} />
                ))}
-            </ul>
+            </CardContainer>
          </article>
-      </section>
+      </ProjectContent>
    );
 };
 

@@ -5,9 +5,11 @@
 }
 
 .box_wrap {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
    width: 70%;
-   padding-top: 65px;
-   padding-bottom: 60px;
+   padding: 65px 30px 60px;
    background-color: var(--opacity-background-color);
    border-radius: 14px;
    box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);
@@ -17,12 +19,6 @@
 /* about */
 .content {
    padding: 100px 3.125rem 0;
-}
-
-.main {
-   display: flex;
-   flex-direction: column;
-   text-align: center;
 }
 
 .produce {
@@ -76,16 +72,23 @@
 }
 
 .contact_channel {
+   display: flex;
    font-size: 24px;
+   line-height: 1;
    margin-top: 40px;
 }
 
 .contact_channel a {
+   display: flex;
    color: var(--theme-font-color);
 }
 
 .contact_channel a:hover {
    color: var(--gray-color);
+}
+
+.contact_channel span {
+   margin: 0 3px;
 }
 
 /* skills */

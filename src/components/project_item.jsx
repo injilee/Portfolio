@@ -1,30 +1,29 @@
 import React from 'react';
-import styles from '../styles/project_item.module.css';
+import { LinkBtn, ProjectContent, ProjectSkills, Description } from '../styles/component/Project_item';
+import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 const ProjectItem = ({ item }) => {
    return (
-      <li className={styles.card}>
-         <img src={item.img} alt="프로젝트 대표 이미지" className={styles.card_sumbnail} />
+      <ProjectContent>
+         <img src={item.img} alt="프로젝트 대표 이미지" />
          <h3 aria-label="프로젝트 제목">{item.title}</h3>
-         <div className={styles.skills}>
-            <ul className={styles.skill_item}>
+         <ProjectSkills>
+            <ul>
                {item['skill'].map((tool, index) => {
                   return <li key={index}>{tool}</li>;
                })}
             </ul>
-         </div>
-         <p aria-label="프로젝트 설명" className={styles.description}>
-            {item.description}
-         </p>
-         <div className={styles.link_btn}>
+            <Description>{item.description}</Description>
+         </ProjectSkills>
+         <LinkBtn>
             <a href={item.githubUrl} aria-label="프로젝트 깃허브 바로가기">
-               <i className={`fa-brands fa-github ${styles.btn}`}></i>
+               <FaGithub className="btn" />
             </a>
             <a href={item.pageUrl} aria-label="프로젝트 사이트 바로가기">
-               <i className={`fa-solid fa-globe ${styles.btn}`}></i>
+               <FaGlobe className="btn" />
             </a>
-         </div>
-      </li>
+         </LinkBtn>
+      </ProjectContent>
    );
 };
 
