@@ -9,6 +9,7 @@ export const GlobalStyles = createGlobalStyle`
   --skill-gray-color: #f0f0f0;
   --nav-background-color: var(--white-color);
   --nav-font-color: var(--black-color);
+  --hover-gray-color: #b4b4b496;
   --hover-purple-color: #62259e;
   --opacity-background-color: rgba(255, 255, 255, 0.1);
 }

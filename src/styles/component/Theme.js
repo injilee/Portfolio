@@ -28,7 +28,7 @@ export const ThemeIcon = styled.button`
       width: 36px;
       height: 36px;
       border-radius: 18px;
-      background-color: var(--gray-color);
+      background-color: var(--hover-gray-color);
    }
 
    span {
