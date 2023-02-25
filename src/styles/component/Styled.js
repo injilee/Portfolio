@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const NavBar = styled.nav`
+export const Nav = styled.div`
    position: fixed;
    display: flex;
    flex-direction: row;
@@ -43,7 +43,7 @@ export const MenuList = styled.ul`
    width:10rem;
    height:100%;
    padding:80px 30px;
-   background-color:#d3d3d3;
+   background-color:var(--nav-slide-color);
    z-index:11;
    overflow:auto;
    transition: transform 0.3s ease-in-out;

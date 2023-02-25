@@ -23,7 +23,7 @@ export const ProjectContent = styled.section`
    }
 
    @media screen and (max-width: 768px) {
-      padding: 30px 1.2rem 100px;
+      padding: 30px 1.2rem 50px;
 
       article {
          width: 100%;
