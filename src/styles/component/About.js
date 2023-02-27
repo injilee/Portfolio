@@ -9,7 +9,7 @@ export const AboutMain = styled.article`
    background-color: var(--opacity-background-color);
    border-radius: 14px;
    box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);
-   margin: 80px auto 0;
+   margin: 0 auto;
 
    @media screen and (max-width: 768px) {
       width: 100%;

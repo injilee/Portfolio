@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
+export const Container = styled.header`
+   display: sticky;
+`;
+
 export const Nav = styled.div`
-   position: fixed;
    display: flex;
    flex-direction: row;
    justify-content: space-between;

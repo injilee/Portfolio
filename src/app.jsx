@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { DarkTheme, LightTheme } from './styles/component/Theme';
 import GlobalStyles from './styles/GlobalStyle';
-import { Nav, Header, Logo, MenuList, MenuBtn, CloseIo } from './styles/component/Styled';
+import { Nav, Header, Logo, MenuList, MenuBtn, CloseIo, Container } from './styles/component/Styled';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoCloseSharp } from 'react-icons/io5';
 import Theme from './components/theme';
@@ -28,29 +28,31 @@ const App = () => {
    return (
       <ThemeProvider theme={darkMode ? LightTheme : DarkTheme}>
          <GlobalStyles />
-         <Nav>
-            <Logo>N</Logo>
-            <Header>
-               <Theme darkModeHandler={darkModeHandler} darkMode={darkMode} />
-               <MenuBtn onClick={slideHandler}>
-                  <GiHamburgerMenu></GiHamburgerMenu>
-               </MenuBtn>
-            </Header>
-            <MenuList open={open}>
-               <CloseIo onClick={slideHandler} open={open}>
-                  <IoCloseSharp></IoCloseSharp>
-               </CloseIo>
-               <li onClick={() => aboutRef.current.scrollIntoView({ behavior: 'smooth' })}>
-                  <span>ABOUT</span>
-               </li>
-               <li onClick={() => skillsRef.current.scrollIntoView({ behavior: 'smooth' })}>
-                  <span>SKILLS</span>
-               </li>
-               <li onClick={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}>
-                  <span>PROJECT</span>
-               </li>
-            </MenuList>
-         </Nav>
+         <Container>
+            <Nav>
+               <Logo>N</Logo>
+               <Header>
+                  <Theme darkModeHandler={darkModeHandler} darkMode={darkMode} />
+                  <MenuBtn onClick={slideHandler}>
+                     <GiHamburgerMenu></GiHamburgerMenu>
+                  </MenuBtn>
+               </Header>
+               <MenuList open={open}>
+                  <CloseIo onClick={slideHandler} open={open}>
+                     <IoCloseSharp></IoCloseSharp>
+                  </CloseIo>
+                  <li onClick={() => aboutRef.current.scrollIntoView({ behavior: 'smooth' })}>
+                     <span>ABOUT</span>
+                  </li>
+                  <li onClick={() => skillsRef.current.scrollIntoView({ behavior: 'smooth' })}>
+                     <span>SKILLS</span>
+                  </li>
+                  <li onClick={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}>
+                     <span>PROJECT</span>
+                  </li>
+               </MenuList>
+            </Nav>
+         </Container>
          <div ref={aboutRef}>
             <About />
          </div>
