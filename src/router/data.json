@@ -31,7 +31,7 @@
          "id": 4,
          "title": "Protect the earth",
          "img": "./image/protect-the-earth.png",
-         "description": "Vanila JS를 기반으로 제작한 지구를 지키기 위해 버그를 잡는 게임.",
+         "description": "Vanilla JS를 기반으로 제작한 지구를 지키기 위해 버그를 잡는 게임.",
          "pageUrl": "https://injilee.github.io/Protect-the-earth/",
          "githubUrl": "https://github.com/injilee/Protect-the-earth",
          "skill": ["HTML", "CSS", "Javascript"]
