@@ -20,7 +20,7 @@ const About = () => {
                      <span aria-label="이메일 주소">📧 lij8016@gmail.com</span>
                   </ContactAddress>
                   <ContactChannel>
-                     <a href="https://github.com/injilee" aria-label="깃허브 링크">
+                     <a href="https://github.com/injilee/Portfolio" aria-label="깃허브 링크">
                         <FaGithub />
                      </a>
                      <span> | </span>
