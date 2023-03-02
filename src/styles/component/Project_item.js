@@ -33,6 +33,7 @@ export const ProjectSkills = styled.div`
    display: flex;
    flex-direction: column;
    align-items: center;
+   margin-bottom: 60px;
 
    ul {
       display: flex;
@@ -63,6 +64,9 @@ export const Description = styled.p.attrs({
 `;
 
 export const LinkBtn = styled.div`
+   position: absolute;
+   right: 20px;
+   bottom: 20px;
    display: flex;
    justify-content: flex-end;
    margin-top: 30px;

@@ -43,4 +43,8 @@ export const CardContainer = styled.ul`
       grid-template-columns: 1fr;
       grid-gap: 30px;
    }
+
+   li {
+      position: relative;
+   }
 `;
