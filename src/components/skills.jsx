@@ -13,7 +13,7 @@ const Skills = () => {
                   <li>CSS3</li>
                   <li>Javascript</li>
                   <li>React</li>
-                  <li>postCSS</li>
+                  <li>Styled-components</li>
                   <li>Firebase</li>
                </SkillList>
                <DivisionLine></DivisionLine>

@@ -1,16 +1,20 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
+position:relative;
+height: 100px;
+
 @font-face {
    font-family: 'SDSamliphopangche_Outline';
    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
    font-weight: normal;
    font-style: normal;
-
-   display: sticky;
 `;
 
 export const Nav = styled.div`
+   position: fixed;
+   top: 0;
+   left: 0;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -29,7 +33,6 @@ export const Logo = styled.h1.attrs({
    color: ${props => props.theme.color.color};
    font-size: 35px;
    font-family: 'SDSamliphopangche_Outline';
-   cursor: pointer;
 `;
 
 export const Header = styled.header`
@@ -57,6 +60,7 @@ export const MenuList = styled.ul`
    overflow:auto;
    transition: transform 0.3s ease-in-out;
    transform:${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
+   scroll-behavior:smooth;
 
    li{
       color: ${props => props.theme.color.color};
