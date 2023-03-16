@@ -1,14 +1,9 @@
 import styled from 'styled-components';
+import '../../fonts/font.css';
 
 export const Container = styled.header`
-position:relative;
-height: 100px;
-
-@font-face {
-   font-family: 'SDSamliphopangche_Outline';
-   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
+   position: relative;
+   height: 100px;
 `;
 
 export const Nav = styled.div`
