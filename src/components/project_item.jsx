@@ -1,10 +1,14 @@
 import React from 'react';
-import { LinkBtn, ProjectContent, ProjectSkills, Description } from '../styles/component/Project_item';
+import { LinkBtn, ProjectList, ProjectSkills, Description } from '../styles/component/Project_item';
 import { FaGithub, FaGlobe } from 'react-icons/fa';
+import ScrollFadeIn from './hooks/ScrollFadeIn';
 
 const ProjectItem = ({ item }) => {
+   const animatedItem = {
+      0: ScrollFadeIn('upProject', 1, 0),
+   };
    return (
-      <ProjectContent>
+      <ProjectList {...animatedItem[0]}>
          <img src={item.img} alt="프로젝트 대표 이미지" />
          <h3 aria-label="프로젝트 제목">{item.title}</h3>
          <ProjectSkills>
@@ -23,7 +27,7 @@ const ProjectItem = ({ item }) => {
                <FaGlobe className="btn" />
             </a>
          </LinkBtn>
-      </ProjectContent>
+      </ProjectList>
    );
 };
 

@@ -53,7 +53,8 @@ export const MenuList = styled.ul`
    background-color:var(--nav-slide-color);
    z-index:11;
    overflow:auto;
-   transition: transform 0.3s ease-in-out;
+   transition: transform 0.3s;
+   transition-timing-function:cubic-bezier(.52,.19,.42,1.01);
    transform:${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
    scroll-behavior:smooth;
 

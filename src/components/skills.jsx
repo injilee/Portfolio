@@ -1,10 +1,15 @@
 import React from 'react';
 import { BoxWrap, Title } from '../styles/BoxWrap';
 import { SkillMain, SkillContainer, SkillList, ToolList, DivisionLine } from '../styles/component/Skills';
+import ScrollFadeIn from './hooks/ScrollFadeIn';
 
 const Skills = () => {
+   const animatedItem = {
+      0: ScrollFadeIn('up', 1, 0),
+   };
+
    return (
-      <BoxWrap>
+      <BoxWrap {...animatedItem[0]}>
          <SkillMain>
             <Title>Skills</Title>
             <SkillContainer>

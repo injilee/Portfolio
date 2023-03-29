@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ProjectContent = styled.li`
+export const ProjectList = styled.li`
    background-color: rgba(255, 255, 255, 0.1);
    padding: 20px;
    border: 1px solid var(--gray-color);

@@ -11,16 +11,15 @@ import Projects from './components/projects';
 import Skills from './components/skills';
 
 const App = () => {
-   const aboutRef = useRef([]);
-   const skillsRef = useRef([]);
    const projectsRef = useRef([]);
 
    const [darkMode, setDarkMode] = useState(false);
+   const [open, setSlide] = useState(false);
+
    const darkModeHandler = () => {
       setDarkMode(!darkMode);
    };
 
-   const [open, setSlide] = useState(false);
    const slideHandler = () => {
       setSlide(!open);
    };
@@ -41,10 +40,10 @@ const App = () => {
                   <CloseIo onClick={slideHandler} open={open}>
                      <IoCloseSharp></IoCloseSharp>
                   </CloseIo>
-                  <li onClick={() => aboutRef.current.scrollIntoView({ behavior: 'smooth' })}>
+                  <li onClick={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}>
                      <span>ABOUT</span>
                   </li>
-                  <li onClick={() => skillsRef.current.scrollIntoView({ behavior: 'smooth' })}>
+                  <li onClick={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}>
                      <span>SKILLS</span>
                   </li>
                   <li onClick={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}>
@@ -53,10 +52,10 @@ const App = () => {
                </MenuList>
             </Nav>
          </Container>
-         <div ref={aboutRef}>
+         <div ref={projectsRef}>
             <About />
          </div>
-         <div ref={skillsRef}>
+         <div ref={projectsRef}>
             <Skills />
          </div>
          <div ref={projectsRef}>

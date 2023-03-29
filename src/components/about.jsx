@@ -2,10 +2,15 @@ import React from 'react';
 import { BoxWrap, Title } from '../styles/BoxWrap';
 import { AboutMain, Produce, Description, Contact, ContactAddress, ContactChannel } from '../styles/component/About';
 import { FaGithub } from 'react-icons/fa';
+import ScrollFadeIn from './hooks/ScrollFadeIn';
 
 const About = () => {
+   const animatedItem = {
+      0: ScrollFadeIn('up', 1, 0),
+   };
+
    return (
-      <BoxWrap>
+      <BoxWrap {...animatedItem[0]}>
          <AboutMain>
             <Title>About</Title>
             <Produce>꾸준히 성장해나가는 프론트엔드 개발자 </Produce>
