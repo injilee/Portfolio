@@ -54,14 +54,14 @@ export const MenuList = styled.ul`
    z-index:11;
    overflow:auto;
    transition: transform 0.3s;
-   transition-timing-function:cubic-bezier(.52,.19,.42,1.01);
+   transition-timing-function:cubic-bezier(.38,.1,.44,.84);
    transform:${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
    scroll-behavior:smooth;
 
    li{
-      color: ${props => props.theme.color.color};
+      color: var(--black-color);
       font-size: 18px;
-      font-weight: 600;
+      font-weight: 500;
       margin-top: 8px;
    }
 
@@ -70,6 +70,7 @@ export const MenuList = styled.ul`
       &:hover {
       color: var(--hover-purple-color);
    }
+   
 `;
 
 export const CloseIo = styled.button`

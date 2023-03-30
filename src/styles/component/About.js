@@ -19,12 +19,6 @@ export const AboutMain = styled.article`
    }
 `;
 
-export const Produce = styled.p`
-   font-size: 17px;
-   color: var(--theme-font-color);
-   margin-top: 5px;
-`;
-
 export const Description = styled.div`
    display: flex;
    flex-direction: row;
