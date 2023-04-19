@@ -20,13 +20,13 @@ export const ThemeContainer = styled.div`
 `;
 
 export const ThemeIcon = styled.button`
-   width: 36px;
-   height: 36px;
-   font-size: 20px;
+   width: 2.25rem;
+   height: 2.25rem;
+   font-size: 1.25rem;
    color: ${props => props.theme.color.color};
    &:hover {
-      width: 36px;
-      height: 36px;
+      width: 2.25rem;
+      height: 2.25rem;
       border-radius: 18px;
       background-color: var(--hover-gray-color);
    }

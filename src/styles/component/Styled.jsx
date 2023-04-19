@@ -3,7 +3,7 @@ import '../../fonts/font.css';
 
 export const Container = styled.header`
    position: relative;
-   height: 100px;
+   height: 6.25rem;
 `;
 
 export const Nav = styled.div`
@@ -14,8 +14,8 @@ export const Nav = styled.div`
    flex-direction: row;
    justify-content: space-between;
    width: 100%;
-   height: 110px;
-   padding: 20px 35px;
+   height: 6.875rem;
+   padding: 1.25rem 2.1875rem;
    background-color: ${props => props.theme.color.backgroundColor};
    color: ${props => props.theme.color.color};
    z-index: 10;
@@ -26,7 +26,7 @@ export const Logo = styled.h1.attrs({
    'aria-label': '이인지 포트폴리오 로고',
 })`
    color: ${props => props.theme.color.color};
-   font-size: 35px;
+   font-size: 2.1875rem;
    font-family: 'SDSamliphopangche_Outline';
 `;
 
@@ -38,7 +38,7 @@ export const Header = styled.header`
 
 export const MenuBtn = styled.button`
    display: flex;
-   font-size: 25px;
+   font-size: 1.5625rem;
    color: ${props => props.theme.color.color};
 `;
 
@@ -49,7 +49,7 @@ export const MenuList = styled.ul`
    display:block;
    width:10rem;
    height:100%;
-   padding:80px 30px;
+   padding:5rem 1.875rem;
    background-color:var(--nav-slide-color);
    z-index:11;
    overflow:auto;
@@ -60,9 +60,9 @@ export const MenuList = styled.ul`
 
    li{
       color: var(--black-color);
-      font-size: 18px;
+      font-size: 1.125rem;
       font-weight: 500;
-      margin-top: 8px;
+      margin-top: 0.5rem;
    }
 
    span {
@@ -78,8 +78,8 @@ export const CloseIo = styled.button`
    top: 0;
    right: 0;
    display: ${({ open }) => (open ? 'block' : 'none')};
-   font-size: 30px;
-   margin: 15px;
+   font-size: 1.875rem;
+   margin: 0.9375rem;
    z-index: 1;
 
    &:hover {

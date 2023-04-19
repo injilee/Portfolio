@@ -5,7 +5,7 @@ export const AboutMain = styled.article`
    flex-direction: column;
    text-align: center;
    width: 70%;
-   padding: 65px 30px 60px;
+   padding: 4.0625rem 1.875rem 3.75rem;
    background-color: var(--opacity-background-color);
    border-radius: 14px;
    box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);
@@ -13,8 +13,8 @@ export const AboutMain = styled.article`
 
    @media screen and (max-width: 768px) {
       width: 100%;
-      padding-top: 50px;
-      padding-bottom: 55px;
+      padding-top: 3.125rem;
+      padding-bottom: 3.4375rem;
       box-shadow: 2px 5px 12px 3px rgb(0 0 0 / 9%);
    }
 `;
@@ -24,7 +24,7 @@ export const Description = styled.div`
    flex-direction: row;
    justify-content: center;
    align-items: center;
-   padding-top: 40px;
+   padding-top: 2.5rem;
    color: var(--theme-font-color);
 
    @media screen and (max-width: 768px) {
@@ -39,17 +39,17 @@ export const Contact = styled.div`
 
    strong {
       color: dodgerblue;
-      font-size: 23px;
+      font-size: 1.4375rem;
    }
 
    h3 {
-      font-size: 26px;
-      margin-top: 6px;
+      font-size: 1.625rem;
+      margin-top: 0.375rem;
    }
 
    @media screen and (max-width: 768px) {
       strong {
-         margin-top: 30px;
+         margin-top: 1.875rem;
       }
    }
 `;
@@ -62,9 +62,9 @@ export const ContactAddress = styled.div`
       display: flex;
       justify-content: center;
       color: firebrick;
-      font-size: 18px;
-      margin-top: 40px;
-      margin-bottom: 5px;
+      font-size: 1.125rem;
+      margin-top: 2.5rem;
+      margin-bottom: 0.3125rem;
    }
 
    span {
@@ -76,9 +76,9 @@ export const ContactAddress = styled.div`
 
 export const ContactChannel = styled.div`
    display: flex;
-   font-size: 24px;
+   font-size: 1.5rem;
    line-height: 1;
-   margin-top: 40px;
+   margin-top: 2.5rem;
 
    a {
       display: flex;
@@ -89,6 +89,6 @@ export const ContactChannel = styled.div`
    }
 
    span {
-      margin: 0 3px;
+      margin: 0 0.1875rem;
    }
 `;
