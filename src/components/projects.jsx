@@ -1,20 +1,20 @@
 import React from 'react';
-import { CardContainer, ProjectContent } from '../styles/component/Project';
+import * as S from '../styles/component/Project';
 import data from '../router/data.json';
 import ProjectItem from './project_item';
 
 const Projects = () => {
    return (
-      <ProjectContent>
+      <S.ProjectContent>
          <article>
             <h2>Projects</h2>
-            <CardContainer>
+            <S.CardContainer>
                {data.projectsData.map(item => (
                   <ProjectItem item={item} key={item.id} />
                ))}
-            </CardContainer>
+            </S.CardContainer>
          </article>
-      </ProjectContent>
+      </S.ProjectContent>
    );
 };
 

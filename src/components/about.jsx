@@ -14,9 +14,8 @@ const About = () => {
          <AboutMain>
             <Title>About</Title>
             <Description>
-               <img src="./image/inji_profile.jpg" alt="inji lee profile" />
                <Contact>
-                  <strong aria-label="직업">#FE</strong>
+                  <strong aria-label="직업">Frontend, Publisher</strong>
                   <h3 aria-label="이름">이인지</h3>
                   <ContactAddress>
                      <h4>Contact</h4>

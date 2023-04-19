@@ -10,6 +10,7 @@ export const ProjectList = styled.li`
       transition: all 0.3s ease-out;
       box-shadow: 5px 7px 20px 2px rgb(0 0 0 / 18%);
    }
+
    @media screen and (max-width: 768px) {
       &:hover {
          box-shadow: 2px 3px 10px 2px rgb(0 0 0 / 18%);

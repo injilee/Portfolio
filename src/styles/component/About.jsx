@@ -27,18 +27,8 @@ export const Description = styled.div`
    padding-top: 40px;
    color: var(--theme-font-color);
 
-   img {
-      width: 230px;
-      height: auto;
-      margin-right: 65px;
-   }
-
    @media screen and (max-width: 768px) {
       flex-direction: column;
-
-      img {
-         margin-right: 0;
-      }
    }
 `;
 

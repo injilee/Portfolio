@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { DarkTheme, LightTheme } from './styles/component/Theme';
 import GlobalStyles from './styles/GlobalStyle';
-import { Nav, Header, Logo, MenuList, MenuBtn, CloseIo, Container } from './styles/component/Styled';
+import * as S from './styles/component/Styled';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoCloseSharp } from 'react-icons/io5';
 import Theme from './components/theme';
@@ -30,19 +30,19 @@ const App = () => {
    return (
       <ThemeProvider theme={darkMode ? LightTheme : DarkTheme}>
          <GlobalStyles />
-         <Container>
-            <Nav>
-               <Logo>N</Logo>
-               <Header>
+         <S.Container>
+            <S.Nav>
+               <S.Logo>N</S.Logo>
+               <S.Header>
                   <Theme darkModeHandler={darkModeHandler} darkMode={darkMode} />
-                  <MenuBtn onClick={slideHandler}>
+                  <S.MenuBtn onClick={slideHandler}>
                      <GiHamburgerMenu></GiHamburgerMenu>
-                  </MenuBtn>
-               </Header>
-               <MenuList open={open}>
-                  <CloseIo onClick={slideHandler} open={open}>
+                  </S.MenuBtn>
+               </S.Header>
+               <S.MenuList open={open}>
+                  <S.CloseIo onClick={slideHandler} open={open}>
                      <IoCloseSharp></IoCloseSharp>
-                  </CloseIo>
+                  </S.CloseIo>
                   <li onClick={() => aboutRef.current.scrollIntoView({ behavior: 'smooth' })}>
                      <span>ABOUT</span>
                   </li>
@@ -52,9 +52,9 @@ const App = () => {
                   <li onClick={() => projectsRef.current.scrollIntoView({ behavior: 'smooth' })}>
                      <span>PROJECT</span>
                   </li>
-               </MenuList>
-            </Nav>
-         </Container>
+               </S.MenuList>
+            </S.Nav>
+         </S.Container>
          <Perks />
          <div ref={aboutRef}>
             <About />
