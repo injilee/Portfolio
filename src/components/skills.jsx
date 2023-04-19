@@ -1,6 +1,6 @@
 import React from 'react';
 import { BoxWrap, Title } from '../styles/BoxWrap';
-import { SkillMain, SkillContainer, SkillList, ToolList, DivisionLine } from '../styles/component/Skills';
+import * as S from '../styles/component/Skills';
 import ScrollFadeIn from './hooks/ScrollFadeIn';
 
 const Skills = () => {
@@ -10,30 +10,26 @@ const Skills = () => {
 
    return (
       <BoxWrap {...animatedItem[0]}>
-         <SkillMain>
+         <S.SkillMain>
             <Title>Skills</Title>
-            <SkillContainer>
-               <SkillList>
+            <S.SkillContainer>
+               <S.SkillList>
                   <li>HTML5</li>
                   <li>CSS3</li>
                   <li>Javascript</li>
                   <li>React</li>
+                  <li>Rest API</li>
                   <li>Styled-components</li>
-                  <li>Firebase</li>
-               </SkillList>
-               <DivisionLine></DivisionLine>
-               <ToolList>
+               </S.SkillList>
+               <S.DivisionLine></S.DivisionLine>
+               <S.ToolList>
                   <li>Git</li>
                   <li>Github</li>
-                  <li>Figma</li>
                   <li>Notion</li>
                   <li>Visual StudioCode</li>
-                  <li>Adobe Photoshop</li>
-                  <li>Adobe Illustrator</li>
-                  <li>Adobe InDesign</li>
-               </ToolList>
-            </SkillContainer>
-         </SkillMain>
+               </S.ToolList>
+            </S.SkillContainer>
+         </S.SkillMain>
       </BoxWrap>
    );
 };
