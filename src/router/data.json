@@ -2,6 +2,15 @@
    "projectsData": [
       {
          "id": 1,
+         "title": "Artbook lion",
+         "img": "./image/artbook-lion.png",
+         "description": "그림책 추천 플랫폼, 그림책 라이언",
+         "pageUrl": "https://artbook-lion.netlify.app",
+         "githubUrl": "https://github.com/injilee/Artbook-lion",
+         "skill": ["React", "React Hooks", "React Router", "Styled-components", "Firebase", "Redux"]
+      },
+      {
+         "id": 2,
          "title": "Natural Archive",
          "img": "./image/natural-archive.png",
          "description": "'Digglet'의 개인 포트폴리오로 제작한 반응형 웹 사이트.",
@@ -10,7 +19,7 @@
          "skill": ["React", "React Hooks", "React Router", "Styled-components"]
       },
       {
-         "id": 2,
+         "id": 3,
          "title": "Pet license maker",
          "img": "./image/pet-license-maker.png",
          "description": "React를 기반으로 제작한 반려동물등록증을 만들 수 있는 웹 사이트. Firebase로 백엔드 구축. Cloudinary API를 사용해 이미지 업로드 및 카드 이미지 저장 가능.",
@@ -19,7 +28,7 @@
          "skill": ["React", "React Router", "Firebase", "postCSS", "React Hooks"]
       },
       {
-         "id": 3,
+         "id": 4,
          "title": "Mytube",
          "img": "./image/portfolio_mockup.jpg",
          "description": "Youtube 클론 코딩 웹 사이트. React를 기반으로 제작. Youtube API를 사용해 동영상 목록 정렬 및 검색 가능.",
@@ -28,7 +37,7 @@
          "skill": ["React", "postCSS", "Youtube API", "Postman"]
       },
       {
-         "id": 4,
+         "id": 5,
          "title": "Protect the earth",
          "img": "./image/protect-the-earth.png",
          "description": "Vanilla JS를 기반으로 제작한 지구를 지키기 위해 버그를 잡는 게임.",
@@ -37,7 +46,7 @@
          "skill": ["HTML", "CSS", "Javascript"]
       },
       {
-         "id": 5,
+         "id": 6,
          "title": "Mothers Day",
          "img": "./image/mothers-day.png",
          "description": "어버이날 기념으로 제작한 기본적인 갤러리 형식의 웹 사이트.",

@@ -15,7 +15,7 @@ const About = () => {
             <Title>About</Title>
             <Description>
                <Contact>
-                  <strong aria-label="직업">Frontend, Publisher</strong>
+                  <strong aria-label="직업">Frontend Developer</strong>
                   <h3 aria-label="이름">이인지</h3>
                   <ContactAddress>
                      <h4>Contact</h4>
@@ -23,12 +23,12 @@ const About = () => {
                      <span aria-label="이메일 주소">📧 lij8016@gmail.com</span>
                   </ContactAddress>
                   <ContactChannel>
-                     <a href="https://github.com/injilee/Portfolio" aria-label="깃허브 링크">
+                     <a href="https://github.com/injilee" aria-label="깃허브로 이동">
                         <FaGithub />
                      </a>
                      <span> | </span>
-                     <a href="https://blog.naver.com/lij8016" aria-label="블로그 링크">
-                        Blog
+                     <a href="https://velog.io/@easy_dev" aria-label="블로그로 이동">
+                        velog
                      </a>
                   </ContactChannel>
                </Contact>

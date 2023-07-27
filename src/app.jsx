@@ -9,7 +9,6 @@ import Theme from './components/theme';
 import About from './components/about';
 import Projects from './components/projects';
 import Skills from './components/skills';
-import Perks from './components/perks';
 
 const App = () => {
    const aboutRef = useRef([]);
@@ -55,7 +54,6 @@ const App = () => {
                </S.MenuList>
             </S.Nav>
          </S.Container>
-         <Perks />
          <div ref={aboutRef}>
             <About />
          </div>

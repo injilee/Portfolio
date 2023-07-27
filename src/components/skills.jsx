@@ -18,15 +18,16 @@ const Skills = () => {
                   <li>CSS3</li>
                   <li>Javascript</li>
                   <li>React</li>
+                  <li>Node.js</li>
                   <li>Rest API</li>
                   <li>Styled-components</li>
                </S.SkillList>
                <S.DivisionLine></S.DivisionLine>
                <S.ToolList>
-                  <li>Git</li>
                   <li>Github</li>
+                  <li>Git</li>
                   <li>Notion</li>
-                  <li>Visual StudioCode</li>
+                  <li>Figma</li>
                </S.ToolList>
             </S.SkillContainer>
          </S.SkillMain>
