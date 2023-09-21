@@ -23,11 +23,11 @@ const About = () => {
                      <span aria-label="이메일 주소">📧 lij8016@gmail.com</span>
                   </ContactAddress>
                   <ContactChannel>
-                     <a href="https://github.com/injilee" aria-label="깃허브로 이동">
+                     <a href="https://github.com/injilee" aria-label="깃허브로 이동" target="blank">
                         <FaGithub />
                      </a>
                      <span> | </span>
-                     <a href="https://velog.io/@easy_dev" aria-label="블로그로 이동">
+                     <a href="https://velog.io/@easy_dev" aria-label="블로그로 이동" target="blank">
                         velog
                      </a>
                   </ContactChannel>

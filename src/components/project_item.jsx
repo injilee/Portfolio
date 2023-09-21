@@ -20,10 +20,10 @@ const ProjectItem = ({ item }) => {
             <S.Description>{item.description}</S.Description>
          </S.ProjectSkills>
          <S.LinkBtn>
-            <a href={item.githubUrl} aria-label="프로젝트 깃허브 바로가기">
+            <a href={item.githubUrl} aria-label="프로젝트 깃허브 바로가기" target="blank">
                <FaGithub className="btn" />
             </a>
-            <a href={item.pageUrl} aria-label="프로젝트 사이트 바로가기">
+            <a href={item.pageUrl} aria-label="프로젝트 사이트 바로가기" target="blank">
                <FaGlobe className="btn" />
             </a>
          </S.LinkBtn>
