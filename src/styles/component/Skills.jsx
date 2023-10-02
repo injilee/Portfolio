@@ -86,6 +86,11 @@ export const ToolListItem = styled.li`
    span {
       font-size: 1.06rem;
       font-weight: 600;
+
+      a {
+         color: var(--blue-color);
+         text-decoration: underline;
+      }
    }
 
    p {
