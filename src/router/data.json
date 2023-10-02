@@ -12,10 +12,18 @@
          "id": 2,
          "title": "Artbook lion",
          "img": "./image/artbook-lion.png",
-         "description": "그림책 추천 플랫폼, 그림책 라이언. 네이버 도서 API로 도서 검색 기능 제공. redux를 사용해 유저들의 원활한 커뮤니티 형성을 위한 데이터 체계화.",
+         "description": "그림책 추천 플랫폼, 그림책 라이언. 로그인, 회원가입 기능. 네이버 도서 API로 도서 검색 기능 제공. axios로 http 통신, redux-toolkit, redux-persist를 사용해 데이터 유지, firebase storage로 프로필 이미지 변경",
          "pageUrl": "https://artbook-lion.netlify.app",
          "githubUrl": "https://github.com/injilee/Artbook-lion",
-         "skill": ["React", "React Hooks", "React Router", "Styled-components", "Firebase", "Redux"]
+         "skill": [
+            "React",
+            "React Hooks",
+            "React Router",
+            "Styled-components",
+            "Firebase",
+            "redux-toolkit",
+            "redux-persist"
+         ]
       },
       {
          "id": 3,

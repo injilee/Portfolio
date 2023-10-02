@@ -8,7 +8,7 @@ const ScrollFadeIn = (direction = 'up', duration = 1, delay = 0) => {
             return 'translate3d(0, 50%, 0)';
 
          case 'upProject':
-            return 'translate3d(0, 30%, 0)';
+            return 'translate3d(0, 10%, 0)';
 
          default:
             return;
@@ -37,7 +37,7 @@ const ScrollFadeIn = (direction = 'up', duration = 1, delay = 0) => {
       const { current } = element;
 
       if (current) {
-         observer = new IntersectionObserver(handleScroll, { threshold: 0.5 });
+         observer = new IntersectionObserver(handleScroll, { threshold: 0.2 });
          observer.observe(current);
       }
       return () => observer && observer.disconnect();
