@@ -28,21 +28,33 @@ export const SkillContainer = styled.div`
 
 export const SkillList = styled.ul`
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    flex-wrap: wrap;
    justify-content: center;
    margin-bottom: 1.25rem;
+`;
 
-   li {
-      color: var(--black-color);
-      background-color: var(--orange-color);
-      border-radius: 1.25rem;
-      padding: 0.5625rem 1.0667rem;
-      font-size: 0.8125rem;
-      line-height: 1.23;
+export const SkillListItem = styled.li`
+   color: var(--theme-font-color);
+   border: 2px solid var(--orange-color);
+   border-radius: 0.3rem;
+   padding: 1.3rem 1.5rem;
+   line-height: 1.23;
+   margin-bottom: 0.9rem;
+
+   span {
+      font-size: 1.06rem;
       font-weight: 600;
-      margin-right: 0.1875rem;
-      margin-bottom: 0.3125rem;
+   }
+
+   p {
+      font-size: 0.95rem;
+      margin-top: 1rem;
+
+      a {
+         color: var(--blue-color);
+         text-decoration: underline;
+      }
    }
 `;
 
@@ -56,20 +68,33 @@ export const DivisionLine = styled.div`
 
 export const ToolList = styled.ul`
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    flex-wrap: wrap;
    justify-content: center;
+   margin-top: 1.25rem;
    margin-bottom: 1.25rem;
+`;
 
-   li {
-      color: var(--black-color);
-      background-color: var(--skill-gray-color);
-      border-radius: 1.25rem;
-      padding: 0.5625rem 0.9375rem;
-      font-size: 0.8125rem;
-      line-height: 1.23;
+export const ToolListItem = styled.li`
+   color: var(--theme-font-color);
+   border: 2px solid var(--gray-color);
+   border-radius: 0.3rem;
+   padding: 1.3rem 1.5rem;
+   line-height: 1.23;
+   margin-bottom: 0.9rem;
+
+   span {
+      font-size: 1.06rem;
       font-weight: 600;
-      margin-right: 0.1875rem;
-      margin-bottom: 0.3125rem;
+   }
+
+   p {
+      font-size: 0.95rem;
+      margin-top: 1rem;
+
+      a {
+         color: var(--blue-color);
+         text-decoration: underline;
+      }
    }
 `;
