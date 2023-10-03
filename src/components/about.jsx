@@ -15,7 +15,7 @@ const About = () => {
             <Title>About</Title>
             <Description>
                <Contact>
-                  <strong aria-label="직업">Frontend Developer</strong>
+                  <strong aria-label="직업">Publisher / Frontend Developer</strong>
                   <h3 aria-label="이름">이인지</h3>
                   <ContactAddress>
                      <h4>Contact</h4>
