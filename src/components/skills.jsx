@@ -39,7 +39,7 @@ const Skills = () => {
             <S.SkillListItem>
               <span>CSS Pre-processor</span>
               <p>
-                Sass, Styled-components를 사용하여 확장성과 유지보수를 고려한 체계적인 컴포넌트별 스타일링 작업 가능.
+                SCSS, Styled-components를 사용하여 확장성과 유지보수를 고려한 체계적인 컴포넌트별 스타일링 작업 가능.
               </p>
             </S.SkillListItem>
             <S.SkillListItem>
