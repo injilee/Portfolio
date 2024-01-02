@@ -4,10 +4,10 @@
       "id": 1,
       "title": "Benope",
       "img": "./image/benope.png",
-      "description": "기존 Benope 사이트를 클론 코딩한 사이트 입니다. 반응형 디자인, 마우스 hover 효과 및 공지사항 페이지의 아코디언 메뉴를 추가 하였습니다. vanilla Javascript로만 기능 구현을 했고 재사용 가능한 CSS 스타일로 작성했습니다.",
+      "description": "기존 Benope 사이트를 클론 코딩한 사이트 입니다. 반응형 디자인, 마우스 hover 효과 및 공지사항 페이지의 아코디언 메뉴를 추가 하였습니다. vanilla Javascript(+jQuery)로 기능 구현을 했고 재사용 가능한 CSS 스타일로 작성했습니다.",
       "pageUrl": "https://injilee.github.io/Benope",
       "githubUrl": "https://github.com/injilee/Benope",
-      "skill": ["HTML", "CSS", "Javascript"]
+      "skill": ["HTML", "CSS", "Javascript", "jQuery"]
     },
     {
       "id": 2,
