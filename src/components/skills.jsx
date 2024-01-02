@@ -26,7 +26,7 @@ const Skills = () => {
               </p>
             </S.SkillListItem>
             <S.SkillListItem>
-              <span>Javascript</span>
+              <span>Javascript, jQuery</span>
               <p>
                 async/await로 비동기처리 가능. class를 이용해 객체 생성 및 활용 가능. fetch, axios로 HTTP 통신 가능하며
                 실무에서 배포한 경험 함께 있음(
