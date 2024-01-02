@@ -29,11 +29,7 @@ const Skills = () => {
               <span>Javascript, jQuery</span>
               <p>
                 async/await로 비동기처리 가능. class를 이용해 객체 생성 및 활용 가능. fetch, axios로 HTTP 통신 가능하며
-                실무에서 배포한 경험 함께 있음(
-                <a href="https://github.com/injilee/kcc2023" target="blank">
-                  kcc2023
-                </a>
-                ). DOM 조작 가능. 자바스크립트 라이브러리 활용 가능
+                실무에서 배포한 경험 함께 있음. DOM 조작 가능. 자바스크립트 라이브러리 활용 가능
               </p>
             </S.SkillListItem>
             <S.SkillListItem>
@@ -62,7 +58,6 @@ const Skills = () => {
           <S.ToolList>
             <S.ToolListItem>
               <span>Github / Git</span>
-              <p>Git을 이용한 기본적인 형상관리 가능. Github readme 문서화를 깔끔하고 가독성 좋게 작성 가능.</p>
             </S.ToolListItem>
             <S.ToolListItem>
               <span>
@@ -72,14 +67,7 @@ const Skills = () => {
               </span>
             </S.ToolListItem>
             <S.ToolListItem>
-              <span>
-                <a
-                  href=" https://www.figma.com/file/bJw1NTXv4aV3b7yTJdUwwN/Artbook-Lion?type=design&node-id=0%3A1&mode=design&t=uFwos7CsMEXfsVNP-1"
-                  target="blank"
-                >
-                  Figma
-                </a>
-              </span>
+              <span>Figma</span>
             </S.ToolListItem>
           </S.ToolList>
         </S.SkillContainer>

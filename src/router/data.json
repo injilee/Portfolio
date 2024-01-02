@@ -4,24 +4,16 @@
       "id": 1,
       "title": "Benope",
       "img": "./image/benope.png",
-      "description": "기존 Benope 사이트를 클론 코딩한 사이트 입니다. 반응형 디자인, 마우스 hover 효과 및 공지사항 페이지의 아코디언 메뉴를 추가 하였습니다. vanilla Javascript(+jQuery)로 기능 구현을 했고 재사용 가능한 CSS 스타일로 작성했습니다.",
+      "description": "기존 Benope 사이트를 클론 코딩한 사이트로, 반응형 디자인, 마우스 hover 효과 및 아코디언 메뉴를 추가 하였습니다. 플러그인 없이 top 버튼, 아코디언 메뉴, 터치/마우스 드래그 슬라이드, 모달창 등의 기능 구현을 했고 재사용 가능한 CSS 스타일로 구현하였습니다.",
       "pageUrl": "https://injilee.github.io/Benope",
       "githubUrl": "https://github.com/injilee/Benope",
       "skill": ["HTML", "CSS", "Javascript", "jQuery"]
     },
     {
       "id": 2,
-      "title": "KCC2023 자료집 사이트",
-      "img": "./image/kcc2023.png",
-      "description": "2023년 6월 한국정보과학회에서 개최된 KCC2023 행사 정보와 신청한 항목의 자료집 링크 제공을 위한 웹사이트 입니다. 행사 참여 회원의 정보를 관리자 페이지에서 관리할 수 있습니다.",
-      "pageUrl": "https://www.kiise.or.kr/kcc2023/",
-      "skill": ["HTML", "CSS", "Javascript", "Node.js", "Firebase Firestore & Authentication"]
-    },
-    {
-      "id": 3,
       "title": "Artbook lion",
       "img": "./image/artbook-lion.png",
-      "description": "그림책 추천 플랫폼, 그림책 라이언 사이트 입니다. 로그인, 회원가입 기능. 네이버 도서 API로 도서 검색 기능 제공. axios로 http 통신, redux-toolkit, redux-persist를 사용해 데이터 유지, firebase storage로 프로필 이미지 변경할 수 있습니다.",
+      "description": "그림책 추천 플랫폼, 그림책 라이언 사이트 입니다. 로그인/회원가입 기능, 네이버 도서 API를 이용한 도서 검색 기능, axios로 http 통신, redux-toolkit, redux-persist를 사용해 데이터 유지, firebase storage로 프로필 이미지 변경할 수 있습니다.",
       "pageUrl": "https://artbook-lion.netlify.app",
       "githubUrl": "https://github.com/injilee/Artbook-lion",
       "skill": [
@@ -35,25 +27,25 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Natural Archive",
       "img": "./image/natural-archive.png",
-      "description": "'김창림 포토그래퍼'의 개인 포트폴리오로 제작한 반응형 웹 사이트 입니다. SEO 지원 및 구글 서치 콘솔에 등록하여 구글 검색 시 결과 노출되도록 함. 순수 캐러셀 제작했습니다.",
+      "description": "'김창림 포토그래퍼'의 개인 포트폴리오로 제작한 반응형 웹 사이트 입니다. SEO 지원 및 구글 서치 콘솔에 등록하여 구글 검색 시 결과 노출되도록 했고 Vanilla Javascript로 캐러셀을 구현했습니다.",
       "pageUrl": "http://chaunglimkim.shop/",
       "githubUrl": "https://github.com/injilee/Natural-Archive",
       "skill": ["React", "React Hooks", "React Router", "Styled-components"]
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Pet license maker",
       "img": "./image/pet-license-maker.png",
-      "description": "React를 기반으로 제작한 반려동물등록증을 만들 수 있는 웹 페이지 입니다. Firebase로 백엔드 구축. Cloudinary API를 사용해 이미지 업로드 및 카드 이미지 저장 가능합니다.",
+      "description": "React를 기반으로 제작한 반려동물등록증을 만들 수 있는 웹 페이지 입니다. Firebase로 백엔드 구축, Cloudinary API를 사용해 이미지 업로드 및 카드 이미지 저장 가능합니다.",
       "pageUrl": "https://pet-license-maker.netlify.app",
       "githubUrl": "https://github.com/injilee/Pet-license-maker",
       "skill": ["React", "React Router", "Firebase", "postCSS", "React Hooks"]
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Mytube",
       "img": "./image/portfolio_mockup.jpg",
       "description": "Youtube 클론 코딩 웹 페이지 입니다. React를 기반으로 제작하였으며 Youtube API를 사용해 동영상 목록 정렬 및 검색 가능합니다.",
@@ -62,21 +54,12 @@
       "skill": ["React", "postCSS", "Youtube API", "Postman"]
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Protect the earth",
       "img": "./image/protect-the-earth.png",
-      "description": "Vanilla JS를 기반으로 제작한 지구를 지키기 위해 버그를 잡는 게임 입니다.",
+      "description": "Vanilla Javascript로 제작한 지구를 지키기 위해 버그를 잡는 게임 입니다.",
       "pageUrl": "https://injilee.github.io/Protect-the-earth/",
       "githubUrl": "https://github.com/injilee/Protect-the-earth",
-      "skill": ["HTML", "CSS", "Javascript"]
-    },
-    {
-      "id": 8,
-      "title": "Mothers Day",
-      "img": "./image/mothers-day.png",
-      "description": "어버이날 기념으로 제작한 기본적인 갤러리 형식의 웹 페이지 입니다.",
-      "pageUrl": "https://injilee.github.io/Mothers-Day/",
-      "githubUrl": "https://github.com/injilee/Mothers-Day",
       "skill": ["HTML", "CSS", "Javascript"]
     }
   ]
